@@ -1,0 +1,15 @@
+name: Astro
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - astropy
+  - astroquery
+  - ipython
+  - gala
+  - emcee
+prefix: /Users/ahmadborzou/miniconda3/envs/Astro

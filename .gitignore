@@ -1,0 +1,9 @@
+*.png
+*.txt
+*.log
+*.pdf
+__pycache__
+AnalyzeGaia/__pycache__/
+.DS_Store
+.ipynb_checkpoints/run-checkpoint.ipynb
+*.csv
