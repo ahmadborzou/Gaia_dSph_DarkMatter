@@ -73,10 +73,10 @@ def Preprocess(dSph):
   ]
 
   FigLabel_arr = [
-  'PhiThm_ThThm.pdf',
-  'RThm_ThThm.pdf',
-  'ThPhim_PhiPhim.pdf',
-  'RPhim_PhiPhim.pdf'
+  '{dSph:s}_PhiThm_ThThm.pdf'.format(dSph=dSph),
+  '{dSph:s}_RThm_ThThm.pdf'.format(dSph=dSph),
+  '{dSph:s}_ThPhim_PhiPhim.pdf'.format(dSph=dSph),
+  '{dSph:s}_RPhim_PhiPhim.pdf'.format(dSph=dSph)
   ]
   xlabel_arr = [
   r"$|(\hat{\phi}\cdot\hat{\theta}_m)/(\hat{\theta}\cdot\hat{\theta}_m)|$",
